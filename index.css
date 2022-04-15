@@ -1,7 +1,26 @@
 * {
   box-sizing: border-box;
 }
-.container {
-  display: inline-grid;
+:root {
+  --grid-cols: 1;
+  --grid-rows: 1;
+}
+
+a {
+  display: inline-block;
+}
+.container_nav {
+  text-align: center;
+}
+.container_content {
+  display: grid;
+  grid-gap: 1em;
+  grid-template-rows: repeat(var(--grid-rows), 1fr);
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  padding: 1em;
+  border: 1px solid #ddd;
   text-align: center;
 }
