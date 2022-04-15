@@ -20,6 +20,10 @@
   "homepage": "https://github.com/DanielMontesP/202204-W2CH5WK-daniel-montes#readme",
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "eslint": "^8.13.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
     "husky": "^7.0.0",
     "jest": "^27.5.1"
   }
