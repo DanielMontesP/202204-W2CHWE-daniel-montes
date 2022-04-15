@@ -1,0 +1,24 @@
+{
+  "name": "202204-w2ch5wk-daniel-montes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMontesP/202204-W2CH5WK-daniel-montes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMontesP/202204-W2CH5WK-daniel-montes/issues"
+  },
+  "homepage": "https://github.com/DanielMontesP/202204-W2CH5WK-daniel-montes#readme",
+  "devDependencies": {
+    "husky": "^7.0.0"
+  }
+}
