@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "jest",
     "prepare": "husky install"
   },
   "repository": {
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/DanielMontesP/202204-W2CH5WK-daniel-montes#readme",
   "devDependencies": {
-    "husky": "^7.0.0"
+    "@types/jest": "^27.4.1",
+    "husky": "^7.0.0",
+    "jest": "^27.5.1"
   }
 }
