@@ -60,9 +60,10 @@ h3 {
 }
 .container_content {
   display: inline-grid;
-  border: 6px solid white;
+  border: 10px solid white;
   /* gap: 0px 0px; */
   visibility: hidden;
+  border-radius: 16px;
 }
 .patron_container {
   display: inline-grid;

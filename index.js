@@ -45,9 +45,20 @@ const crearPatron = () => {
   document.querySelector(".patron_container").style.gridTemplateColumns =
     "repeat(" + userCols + ", auto)"; // eslint-disable-line
 };
-const setColor = () => {
-  debugger;
-  document.querySelector(id).style.background = "red";
+const setColor = (id) => {
+  // debugger;
+  // document.querySelector(id).style.background = "red";
+};
+const selectPatron = (tipoPatron) => {
+  switch (tipoPatron) {
+    case "standard":
+      document.querySelector(".patron__grid-item_1").style.background = "red";
+      document.querySelector(".patron__grid-item_3").style.background = "red";
+      document.querySelector(".patron__grid-item_6").style.background = "red";
+      document.querySelector(".patron__grid-item_9").style.background = "red";
+      break;
+    default:
+  }
 };
 function startGame() {
   // container.style.setProperty("--grid-rows", userRows);
@@ -56,13 +67,14 @@ function startGame() {
   clsContent();
   crearGrid();
   crearPatron();
+  selectPatron("standard");
   const cols = document.querySelectorAll(".patron__grid-item");
 
   cols.forEach((element) => {
     element.addEventListener("mouseup", () => {
       // eslint-disable-line
-
-      setColor();
+      // debugger;
+      // setColor(this.id);
     });
   });
 }
