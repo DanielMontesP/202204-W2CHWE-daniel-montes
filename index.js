@@ -341,4 +341,4 @@ function startGame() {
   crearPatron();
   enableAddEventListenners("All");
   selectPatron("standard");
-}
+};
