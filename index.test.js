@@ -13,5 +13,4 @@ describe("Given a function crearPatron", () => {
     });
   });
 });
-
 console.log(begin());
