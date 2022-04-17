@@ -11,5 +11,5 @@ while read line; do
         exit 1
     fi
 done < "${1}"
-
+ 
 exit 0;

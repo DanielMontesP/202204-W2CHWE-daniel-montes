@@ -11,5 +11,5 @@ if [[ ! $local_branch_name =~ $valid_branch_regex ]]; then
     echo -e "\033[0;31m$message"
     exit 1
 fi
-
+  
 exit 0;
